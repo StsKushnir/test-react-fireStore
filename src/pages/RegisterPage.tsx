@@ -5,8 +5,6 @@ import InputField from "../components/InputField";
 import AuthLayout from "../components/AuthLayout";
 import AuthSwitch from "../components/AuthSwitch";
 
-
-
 const RegisterPage = () => {
   const [email, setEmail] = useState<string>("");
   const [password, setPassword] = useState<string>("");
